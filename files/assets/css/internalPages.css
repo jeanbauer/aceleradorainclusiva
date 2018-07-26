@@ -1,0 +1,129 @@
+
+/* CARDS */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.projects {
+  display: flex;
+  justify-content: center
+}
+
+.slide-container {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 140px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapper:focus {
+  outline: 0;
+}
+
+.card {
+  cursor: pointer;
+  color: #333;
+  margin-left: 25px;
+  background: white;
+  width: 300px;
+  display: inline-block;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+}
+
+.card__image {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.card__image--example {
+  background: url("");
+}
+
+.card__image--example img {
+  width: 400px;
+  position: absolute;
+  left: -37px;
+}
+
+.card__subtitle {
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.card__subtitle--example {
+  color: #EE5487;
+}
+
+.card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#menu-nav {
+  display: flex;
+  align-content: center;
+  height: 50px;
+
+  background: #fff;
+  border: 3px solid #f5f5f5;
+  position: relative;
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#menu-nav span {
+}
+
+#menu-nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#menu-nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
