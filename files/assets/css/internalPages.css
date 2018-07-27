@@ -17,7 +17,6 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
   vertical-align: baseline;
 }
 
@@ -115,12 +114,19 @@ section, summary, time, mark, audio, video {
 }
 
 #menu-nav span {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
 }
 
 #menu-nav ul {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  list-style: none;
+  align-items: center;
 }
 
 #menu-nav ul li a {
