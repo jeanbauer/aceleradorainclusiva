@@ -187,17 +187,8 @@ main {
   height: 100%;
 }
 
-.section__wrapper-content h2 {
-
-}
-
 .section__wrapper-content i {
   font-size: 130px;
-}
-
-
-.section__wrapper-content p {
-
 }
 
 footer {
@@ -252,15 +243,20 @@ form {
 textarea {
   margin: 20px 0;
   height: 70px;
+  border: 1px solid #ddd;
+  font-size: 0.8em;
 }
+
+textarea::-webkit-input-placeholder { padding: 0.9em; }
+textarea:-moz-placeholder { padding: 0.9em; }
+textarea::-moz-placeholder {  padding: 0.9em; }
+textarea:-ms-input-placeholder {padding: 0.9em; }
 
 input {
   font-size: 0.8em;
-  font-family: 'proxima-nova-soft', sans-serif;
   border: 1px solid #ddd;
   background: #fff;
   padding: 0.9em;
-  transition: all 0.3s ease-in-out;
   width: 100%;
 }
 
