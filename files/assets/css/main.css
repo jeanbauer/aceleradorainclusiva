@@ -96,14 +96,36 @@ menu div:hover {
   transform: translateY(-1px);
 }
 
+main {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1024px) {
+  main {
+    width: 80%;
+  }
+}
+
 .content__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.content__wrapper img {
+.content__wrapper--logo {
   width: 90vw;
+}
+
+.content__wrapper--partners {
+  margin-top: 80px;
+  justify-content: space-evenly;
+}
+
+.content__wrapper--separator {
+  margin: 80px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
 }
 
 .content__wrapper-title {
