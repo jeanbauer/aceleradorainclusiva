@@ -196,6 +196,33 @@ main {
   font-size: 130px;
 }
 
+.section__wrapper--access-link h2 {
+  color: #333;
+}
+
+.section__wrapper--access-link {
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 100px;
+  background: #FFF;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.section__wrapper--access-link:hover {
+  background: #009471;
+  transition: all 0.3s ease-in-out;
+}
+
+.section__wrapper--access-link:hover h2 {
+  color: #FFF;
+  font-weight: 500;
+}
+
 footer {
   display: flex;
   justify-content: center;
