@@ -102,9 +102,7 @@ main {
 }
 
 @media (min-width: 1024px) {
-  main {
-    width: 80%;
-  }
+  main {  width: 80%; }
 }
 
 .content__wrapper {
@@ -120,7 +118,15 @@ main {
 .content__wrapper--partners {
   margin-top: 80px;
   justify-content: space-evenly;
+  flex-direction: row;
 }
+
+@media (max-width: 1024px) {
+  .content__wrapper--partners { flex-direction: column; }
+  .content__wrapper--partners a { margin: 20px; }
+  h2 { text-align: center; }
+}
+
 
 .content__wrapper--separator {
   margin: 80px 0;
