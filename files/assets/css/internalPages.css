@@ -120,29 +120,3 @@ section, summary, time, mark, audio, video {
 .card__unit-description ul li a:hover {
   font-weight: bold;
 }
-
-#menu-nav {
-  display: flex;
-  align-content: center;
-  height: 50px;
-
-  background: #fff;
-  border: 3px solid #f5f5f5;
-  position: relative;
-
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-#menu-nav span {
-}
-
-#menu-nav ul {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-#menu-nav ul li a {
-  color: #333;
-  text-decoration: none;
-}
