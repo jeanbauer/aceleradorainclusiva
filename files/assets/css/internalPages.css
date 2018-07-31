@@ -95,7 +95,6 @@ section, summary, time, mark, audio, video {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
-  cursor: pointer;
 }
 
 .card__subtitle--example {
