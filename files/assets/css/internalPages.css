@@ -67,6 +67,10 @@ section, summary, time, mark, audio, video {
   }
 }
 
+.card:nth-child(2) {
+  height: 750px;
+}
+
 .card:nth-child(3) {
   height: 560px;
 }
@@ -115,6 +119,7 @@ section, summary, time, mark, audio, video {
 
 .card__unit-description ul li a {
   color: #333;
+  text-decoration: underline
 }
 
 .card__unit-description ul li a:hover {
