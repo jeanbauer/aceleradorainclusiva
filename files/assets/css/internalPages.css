@@ -67,12 +67,8 @@ section, summary, time, mark, audio, video {
   }
 }
 
-.card:nth-child(2) {
+.card:nth-child(2), .card:nth-child(3) {
   height: 750px;
-}
-
-.card:nth-child(3) {
-  height: 560px;
 }
 
 .card__image {
