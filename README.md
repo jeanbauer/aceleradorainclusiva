@@ -7,6 +7,7 @@ Para atualizar sua página há 2 maneiras:
   2) Ou você só nos manda o código que atualizamos sua página :)
 ```
 
+
 ## Tecnologias envolvidas na criação deste site
 ```
   O site da Aceleradora foi criado utilizando tecnologias vistas durante o período de aulas, com bastante HTML e CSS, sem nenhuma mágica! 
